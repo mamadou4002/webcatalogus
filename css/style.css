@@ -1,0 +1,116 @@
+.banner {
+    height: 100vh !important;
+    width: 100%;
+    transition-duration: 0.5s;
+    overflow: hidden !important;
+}
+
+.banner h1 {
+    line-height: 100vh;
+    color: white;
+    transition-duration: 0.5s
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.banner a:hover {
+    color: gold;
+}
+
+.banner:has(h1 > a:hover) {
+    filter: sepia(50%) contrast(125%);
+}
+
+.artists {
+    background-image: url("/img/brent.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.events {
+    background-image: url("/img/vansire.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.instruments {
+    background-image: url("/img/instrumenten-eensgezind-nieuwkoop.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: white;
+    padding: 0px 10px !important;
+}
+
+.emerson {
+    background-image: url("/img/tarkus.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.ed {
+    background-image: url("/img/ed-sheeran.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.david {
+    background-image: url("/img/david-bowie-ziggy-muzyka-stil.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.numbers {
+    transition-duration: 1s;
+}
+
+#emerson:target .emerson-lake {
+    transform: translateY(-70vh);
+}
+
+
+#david:target .david {
+    transform: translateY(-70vh);
+}
+
+#ed:target .ed {
+    transform: translateY(-70vh);
+}
+
+
+.card {
+    height: 70vh !important;
+    overflow: scroll;
+}
+
+.card h1 {
+    color: black !important;
+    line-height: 12vh !important;
+}
+
+
+.background {
+    background-image: url("/img/images.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
