@@ -26,7 +26,7 @@
 }
 
 .artists {
-    background-image: url("/img/brent.jpg");
+    background-image: url("./img/brent.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -34,7 +34,7 @@
 }
 
 .events {
-    background-image: url("/img/vansire.jpg");
+    background-image: url("./img/vansire.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -42,7 +42,7 @@
 }
 
 .instruments {
-    background-image: url("/img/instrumenten-eensgezind-nieuwkoop.jpg");
+    background-image: url("./img/instrumenten-eensgezind-nieuwkoop.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -54,7 +54,7 @@
 }
 
 .emerson {
-    background-image: url("/img/tarkus.jpg");
+    background-image: url("./img/tarkus.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -62,7 +62,7 @@
 }
 
 .ed {
-    background-image: url("/img/ed-sheeran.jpg");
+    background-image: url("./img/ed-sheeran.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -70,7 +70,7 @@
 }
 
 .david {
-    background-image: url("/img/david-bowie-ziggy-muzyka-stil.jpg");
+    background-image: url("./img/david-bowie-ziggy-muzyka-stil.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -107,7 +107,7 @@
 
 
 .background {
-    background-image: url("/img/images.jpg");
+    background-image: url("./img/images.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
